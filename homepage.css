@@ -248,3 +248,42 @@ button.form-control {
 .product-actions > a:hover {
     background-color: gray;
 }
+
+.slide-item {
+    height: 300px;
+}
+
+.slide-item > img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.speedtech-showcase {
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    z-index: 9;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.slick-prev {
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.01));
+}
+
+.slick-next {
+    right: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0.01), rgba(0,0,0,0.5));
+}
+
+.mt-1 { margin-top: 5px; }
+.mt-3 { margin-top: 15px; }
+.mt-5 { margin-top: 25px; }
